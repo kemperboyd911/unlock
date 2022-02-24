@@ -4,11 +4,11 @@ on:
   workflow_call:
     inputs:
       service:
-        description: "The service/app to build"
+        description: "TangMeIn"
         type: string
         required: true
       app-name:
-        description: "The Heroku app name to which the application should be deployed"
+        description: "tangmein"
         type: string
         required: true
       container-type: 
